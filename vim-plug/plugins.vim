@@ -8,10 +8,16 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+  " Status line
+  " Plug 'itchyny/lightline.vim'
+  " Notational notes
+  Plug 'https://github.com/alok/notational-fzf-vim'
+  " Differenet comment value based on the region of file
+  Plug 'suy/vim-context-commentstring'
   " Change dates fast
-  Plug 'tpope/vim-speeddating'
+  " Plug 'tpope/vim-speeddating'
   " Convert binary, hex, etc..
-  Plug 'glts/vim-radical'
+  " Plug 'glts/vim-radical'
   " Files
   Plug 'tpope/vim-eunuch'
   " Repeat stuff
@@ -34,7 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Text Navigation
     Plug 'justinmk/vim-sneak'
     Plug 'unblevable/quick-scope'
-    " Plug 'easymotion/vim-easymotion'
+    Plug 'easymotion/vim-easymotion'
     " Add some color
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
@@ -48,9 +54,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/onedark.vim'
-    " Plug 'kaicataldo/material.vim'
-    " Plug 'NLKNguyen/papercolor-theme'
-    " Plug 'tomasiser/vim-code-dark'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -59,7 +62,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     " Plug 'francoiscabrol/ranger.vim'
     " Plug 'rbgrouleff/bclose.vim'
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -70,7 +73,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     " Terminal
-    Plug 'voldikss/vim-floaterm'
+    " Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'
     " Vista
@@ -89,7 +92,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
     " Interactive code
-    Plug 'ChristianChiarulli/codi.vim'
+    " Plug 'ChristianChiarulli/codi.vim'
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
   endif

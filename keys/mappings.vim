@@ -12,6 +12,7 @@ nnoremap <Space> <Nop>
 vnoremap < <gv
 vnoremap > >gv
 
+
 if exists('g:vscode')
 
 " Simulate same TAB behavior in VSCode
@@ -40,8 +41,6 @@ else
   nnoremap <silent> <C-s> :w<CR>
   " Alternate way to quit
   nnoremap <silent> <C-Q> :wq!<CR>
-  " Use control-c instead of escape
-  nnoremap <silent> <C-c> <Esc>
   " <TAB>: completion.
   inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 

@@ -6,7 +6,7 @@ if !exists('g:vscode')
   set hidden                              " Required to keep multiple buffers open multiple buffers
   set nowrap                              " Display long lines as just one line
   set encoding=utf-8                      " The encoding displayed 
-  set pumheight=10                        " Makes popup menu smaller
+  " set pumheight=10                        " Makes popup menu smaller
   set fileencoding=utf-8                  " The encoding written to file
   set ruler              			            " Show the cursor position all the time
   set cmdheight=2                         " More space for displaying messages
@@ -36,6 +36,7 @@ if !exists('g:vscode')
   set clipboard=unnamedplus               " Copy paste between vim and everything else
   set incsearch
   set guifont=Hack\ Nerd\ Font
+  set norelativenumber!
   " let $NVIM_TUI_ENABLE_TRUE_COLOR=1
   " set mmp=1300
   " set autochdir                           " Your working directory will always be the same as your working directory
