@@ -1,7 +1,3 @@
-# Nvim Mach 2
-
-![Nvim Mach 2 pic](./utils/images/nvim.png)
-
 ## Install in one command
 
 The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
@@ -140,3 +136,5 @@ Example:
 ## VSCode integration
 
 We will be integrating with VSCode using [this](https://github.com/asvetliakov/vscode-neovim)
+
+Credit: [ChristianChiarulli](https://github.com/ChristianChiarulli/)
